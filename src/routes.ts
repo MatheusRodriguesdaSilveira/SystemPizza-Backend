@@ -50,6 +50,4 @@ router.get('/orders/details', isAuthenticated, new DetailsOrderController().hand
 
 router.put('/orders/finish', isAuthenticated, new FinishOrderController().handle)
 
-
-
 export { router };
